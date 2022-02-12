@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, p, a {
+    color: white;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    
+}
+a:hover {
+    color: white;
+}
+
+.logo {
+    filter: saturate(0);
+    overflow: hidden;
+    background-image: url("../medias/clameur.png");
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-2 {
+    filter: saturate(0);
+    overflow: hidden;
+    background-image: url("../medias/oie.png");
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-image: url("../medias/bg.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    background: black;
+    max-width: 71vw;
+}
+.text {
+
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social {
+    background-color: white;
+
+}
+
+.social a {
+    color: black !important;
+}
+
+
+.links {
+    background: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.links a {
+    color: black;
+}
